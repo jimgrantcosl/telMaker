@@ -1,0 +1,166 @@
+<?xml version="1.0"?>
+<NodeStore>
+	<Node Nodename="COSLDrillogNode">
+		<Subnode SubNodeName="ACPRData8Cmd">
+			<SubNodeItem SubNodeItemAlias="ACPR_PDSH8A">ACPR_PDSH8X</SubNodeItem>
+			<SubNodeItem SubNodeItemAlias="ACPR_PDLL8A">ACPR_PDLL8X</SubNodeItem>
+			<SubNodeItem SubNodeItemAlias="ACPR_PDLH8A">ACPR_PDLH8X</SubNodeItem>
+			<SubNodeItem SubNodeItemAlias="ACPR_PDSL8A">ACPR_PDSL8X</SubNodeItem>
+			<SubNodeItem SubNodeItemAlias="ACPR_ARSH8A">ACPR_ARSH8X</SubNodeItem>
+			<SubNodeItem SubNodeItemAlias="ACPR_ARLL8A">ACPR_ARLL8X</SubNodeItem>
+			<SubNodeItem SubNodeItemAlias="ACPR_ARLH8A">ACPR_ARLH8X</SubNodeItem>
+			<SubNodeItem SubNodeItemAlias="ACPR_ARSL8A">ACPR_ARSL8X</SubNodeItem>
+		</Subnode>
+		
+		<Subnode SubNodeName="DBCDPMDiagCmd">		
+			<SubNodeItem SubNodeItemAlias="DBC_BUSCA">DBC_BUSCX</SubNodeItem>
+			<SubNodeItem SubNodeItemAlias="VSM_VRPMA">VSM_VRPMX</SubNodeItem>
+			<SubNodeItem SubNodeItemAlias="DPM_MAX_PRSB_PDA">DPM_MAX_PRSB_PDX</SubNodeItem>
+			<SubNodeItem SubNodeItemAlias="DPM_MAX_PRSA_PDA">DPM_MAX_PRSA_PDX</SubNodeItem>
+			<SubNodeItem SubNodeItemAlias="DPM_MIN_PRSB_PDA">DPM_MIN_PRSB_PDX</SubNodeItem>
+			<SubNodeItem SubNodeItemAlias="DPM_MIN_PRSA_PDA">DPM_MIN_PRSA_PDX</SubNodeItem>
+			<SubNodeItem SubNodeItemAlias="DPM_AVG_PRSB_PUA">DPM_AVG_PRSB_PUX</SubNodeItem>
+			<SubNodeItem SubNodeItemAlias="DPM_AVG_PRSA_PUA">DPM_AVG_PRSA_PUX</SubNodeItem>
+			<SubNodeItem SubNodeItemAlias="DPM_MAX_PRSB_PUA">DPM_MAX_PRSB_PUX</SubNodeItem>
+			<SubNodeItem SubNodeItemAlias="DPM_MAX_PRSA_PUA">DPM_MAX_PRSA_PUX</SubNodeItem>
+			<SubNodeItem SubNodeItemAlias="DPM_MIN_PRSB_PUA">DPM_MIN_PRSB_PUX</SubNodeItem>
+			<SubNodeItem SubNodeItemAlias="DPM_MIN_PRSA_PUA">DPM_MIN_PRSA_PUX</SubNodeItem>
+		</Subnode>
+
+		<Subnode SubNodeName="DBCDPMFODataCmd">	
+			<SubNodeItem SubNodeItemAlias="DBC_TEMPA">DBC_TEMPX</SubNodeItem>
+			<SubNodeItem SubNodeItemAlias="DBC_BATTA">DBC_BATTX</SubNodeItem>
+			<SubNodeItem SubNodeItemAlias="DPM_AVG_PRESB_PDA">DPM_AVG_PRESB_PDX</SubNodeItem>
+			<SubNodeItem SubNodeItemAlias="DPM_AVG_PRESA_PDA">DPM_AVG_PRESA_PDX</SubNodeItem>
+		</Subnode>
+
+		<Subnode SubNodeName="DIMDiagCmd">	
+			<SubNodeItem SubNodeItemAlias="DIM_TFMA">DIM_TFMX</SubNodeItem>
+			<SubNodeItem SubNodeItemAlias="DIM_TFGA">DIM_TFGX</SubNodeItem>
+			<SubNodeItem SubNodeItemAlias="DIM_MAA">DIM_MAX</SubNodeItem>
+			<SubNodeItem SubNodeItemAlias="DIM_PTOVA">DIM_PTOVX</SubNodeItem>
+			<SubNodeItem SubNodeItemAlias="DIM_PTOCA">DIM_PTOCX</SubNodeItem>
+			<SubNodeItem SubNodeItemAlias="DIM_BCCSA">DIM_BCCSX</SubNodeItem>
+			<SubNodeItem SubNodeItemAlias="DIM_STATA">DIM_STATX</SubNodeItem>
+		</Subnode>
+
+		<Subnode SubNodeName="DIMRawCmd">	
+			<SubNodeItem SubNodeItemAlias="DIM_GXA">DIM_GXX</SubNodeItem>
+			<SubNodeItem SubNodeItemAlias="DIM_GYA">DIM_GYX</SubNodeItem>
+			<SubNodeItem SubNodeItemAlias="DIM_GZA">DIM_GZX</SubNodeItem>
+			<SubNodeItem SubNodeItemAlias="DIM_MXA">DIM_MXX</SubNodeItem>
+			<SubNodeItem SubNodeItemAlias="DIM_MYA">DIM_MYX</SubNodeItem>
+			<SubNodeItem SubNodeItemAlias="DIM_MZA">DIM_MZX</SubNodeItem>
+		</Subnode>
+
+		<Subnode SubNodeName="DIMSvyCmd">	
+			<SubNodeItem SubNodeItemAlias="DIM_INCA">DIM_INCX</SubNodeItem>
+			<SubNodeItem SubNodeItemAlias="DIM_AZIA">DIM_AZIX</SubNodeItem>
+			<SubNodeItem SubNodeItemAlias="DIM_GT_RAWA">DIM_GT_RAWX</SubNodeItem>
+			<SubNodeItem SubNodeItemAlias="DIM_MT_RAWA">DIM_MT_RAWX</SubNodeItem>
+			<SubNodeItem SubNodeItemAlias="DIM_MA_RAWA">DIM_MA_RAWX</SubNodeItem>
+			<SubNodeItem SubNodeItemAlias="DIM_TFAA">DIM_TFAX</SubNodeItem>
+		</Subnode>
+
+		<Subnode SubNodeName="DPMVSMRTDataCmd">	
+			<SubNodeItem SubNodeItemAlias="VSM_VXYA">VSM_VXYX</SubNodeItem>
+			<SubNodeItem SubNodeItemAlias="VSM_VZA">VSM_VZX</SubNodeItem>
+			<SubNodeItem SubNodeItemAlias="DPM_ANNULARA">DPM_ANNULARX</SubNodeItem>
+			<SubNodeItem SubNodeItemAlias="VSM_SSA">VSM_SSX</SubNodeItem>
+			<SubNodeItem SubNodeItemAlias="VSM_USDA">VSM_USDX</SubNodeItem>
+			<SubNodeItem SubNodeItemAlias="DPM_BOREA">DPM_BOREX</SubNodeItem>
+			<SubNodeItem SubNodeItemAlias="VSM_VRPMA">VSM_VRPMX</SubNodeItem>
+		</Subnode>
+
+		<Subnode SubNodeName="DWPRDataCmd">	
+			<SubNodeItem SubNodeItemAlias="DWPR_RES1A">DWPR_RES1X</SubNodeItem>
+			<SubNodeItem SubNodeItemAlias="DWPR_RES2A">DWPR_RES2X</SubNodeItem>
+			<SubNodeItem SubNodeItemAlias="DWPR_RES3A">DWPR_RES3X</SubNodeItem>
+			<SubNodeItem SubNodeItemAlias="DWPR_RES4A">DWPR_RES4X</SubNodeItem>
+			<SubNodeItem SubNodeItemAlias="DWPR_GPGA1A">DWPR_GPGA1X</SubNodeItem>
+			<SubNodeItem SubNodeItemAlias="DWPR_GPGA2A">DWPR_GPGA2X</SubNodeItem>
+			<SubNodeItem SubNodeItemAlias="DWPR_GPGA3A">DWPR_GPGA3X</SubNodeItem>
+			<SubNodeItem SubNodeItemAlias="DWPR_GPGA4A">DWPR_GPGA4X</SubNodeItem>
+			<SubNodeItem SubNodeItemAlias="GANG_1A">GANG_1X</SubNodeItem>
+			<SubNodeItem SubNodeItemAlias="GANG_2A">GANG_2X</SubNodeItem>
+		</Subnode>
+
+		<Subnode SubNodeName="INPDataCmd">	
+			<SubNodeItem SubNodeItemAlias="INP_PORA">INP_PORX</SubNodeItem>
+			<SubNodeItem SubNodeItemAlias="INP_USDA">INP_USDX</SubNodeItem>
+			<SubNodeItem SubNodeItemAlias="INP_OFFSETA">INP_OFFSETX</SubNodeItem>
+		</Subnode>
+
+		<Subnode SubNodeName="LDIAuxDataCmd">	
+			<SubNodeItem SubNodeItemAlias="LDI_DEN2A">LDI_DEN2X</SubNodeItem>
+			<SubNodeItem SubNodeItemAlias="LDI_PE1A">LDI_PE1X</SubNodeItem>
+			<SubNodeItem SubNodeItemAlias="LDI_CsPeakSSA">LDI_CsPeakSSX</SubNodeItem>
+			<SubNodeItem SubNodeItemAlias="LDI_CsPeakLSA">LDI_CsPeakLSX</SubNodeItem>
+			<SubNodeItem SubNodeItemAlias="LDI_Zcorr2A">LDI_Zcorr2X</SubNodeItem>
+		</Subnode>
+
+		<Subnode SubNodeName="LDIDataCmd">	
+			<SubNodeItem SubNodeItemAlias="LDI_CALOFFA">LDI_CALOFFX</SubNodeItem>
+		</Subnode>
+
+		<Subnode SubNodeName="MASTDataCmd">	
+			<SubNodeItem SubNodeItemAlias="MAST_SLOW1A">MAST_SLOW1X</SubNodeItem>
+			<SubNodeItem SubNodeItemAlias="MAST_CORR1A">MAST_CORR1X</SubNodeItem>
+			<SubNodeItem SubNodeItemAlias="MAST_SLOW2A">MAST_SLOW2X</SubNodeItem>
+			<SubNodeItem SubNodeItemAlias="MAST_CORR2A">MAST_CORR2X</SubNodeItem>
+			<SubNodeItem SubNodeItemAlias="MAST_SLOW3A">MAST_SLOW3X</SubNodeItem>
+			<SubNodeItem SubNodeItemAlias="MAST_CORR3A">MAST_CORR3X</SubNodeItem>
+		</Subnode>
+
+		<Subnode SubNodeName="NIMDiagCmd">	
+			<SubNodeItem SubNodeItemAlias="NIM_STATA">NIM_STATX</SubNodeItem>
+			<SubNodeItem SubNodeItemAlias="NIM_TEMPA">NIM_TEMPX</SubNodeItem>
+			<SubNodeItem SubNodeItemAlias="NIM_AXA">NIM_AXX</SubNodeItem>
+			<SubNodeItem SubNodeItemAlias="NIM_AYA">NIM_AYX</SubNodeItem>
+			<SubNodeItem SubNodeItemAlias="NIM_AZA">NIM_AZX</SubNodeItem>
+			<SubNodeItem SubNodeItemAlias="NIM_TXA">NIM_TXX</SubNodeItem>
+			<SubNodeItem SubNodeItemAlias="NIM_TYA">NIM_TYX</SubNodeItem>
+			<SubNodeItem SubNodeItemAlias="NIM_TZA">NIM_TZX</SubNodeItem>
+			<SubNodeItem SubNodeItemAlias="NIM_GTA">NIM_GTX</SubNodeItem>
+			<SubNodeItem SubNodeItemAlias="NIM_SRSA">NIM_SRSX</SubNodeItem>
+			<SubNodeItem SubNodeItemAlias="NIM_CFGA">NIM_CFGX</SubNodeItem>
+		</Subnode>
+
+		<Subnode SubNodeName="NIMSvyCmd">	
+			<SubNodeItem SubNodeItemAlias="NIM_INCA">NIM_INCX</SubNodeItem>
+			<SubNodeItem SubNodeItemAlias="NIM_RIBA">NIM_RIBX</SubNodeItem>
+			<SubNodeItem SubNodeItemAlias="SFU_TFA">SFU_TFX</SubNodeItem>
+			<SubNodeItem SubNodeItemAlias="SFU_FORCEX">SFU_FORCEX</SubNodeItem>
+			<SubNodeItem SubNodeItemAlias="SFU_STATA">SFU_STATX</SubNodeItem>
+			<SubNodeItem SubNodeItemAlias="SFU_TFA">SFU_TFX</SubNodeItem>
+		</Subnode>
+
+		<Subnode SubNodeName="PMTAziDataCmd">	
+			<SubNodeItem SubNodeItemAlias="GR_CPSUA">GR_CPSUX</SubNodeItem>
+			<SubNodeItem SubNodeItemAlias="GR_CPSDA">GR_CPSDX</SubNodeItem>
+			<SubNodeItem SubNodeItemAlias="GR_CPSCA">GR_CPSCX</SubNodeItem>
+			<SubNodeItem SubNodeItemAlias="GR_CPSAA">GR_CPSAX</SubNodeItem>
+			<SubNodeItem SubNodeItemAlias="GR_CPSBA">GR_CPSBX</SubNodeItem>
+		</Subnode>
+
+		<Subnode SubNodeName="PMTRTDataCmd">	
+			<SubNodeItem SubNodeItemAlias="PMT_CPSAA">PMT_CPSAX</SubNodeItem>
+			<SubNodeItem SubNodeItemAlias="PMT_CPSBA">PMT_CPSBX</SubNodeItem>
+			<SubNodeItem SubNodeItemAlias="PMT_CPSCA">PMT_CPSCX</SubNodeItem>
+		</Subnode>
+
+		<Subnode SubNodeName="SFUDiagCmd">	
+			<SubNodeItem SubNodeItemAlias="SFU_CP1A">SFU_CP1X</SubNodeItem>
+			<SubNodeItem SubNodeItemAlias="SFU_CP2A">SFU_CP2X</SubNodeItem>
+			<SubNodeItem SubNodeItemAlias="SFU_CP3A">SFU_CP3X</SubNodeItem>
+			<SubNodeItem SubNodeItemAlias="SFU_RM1A">SFU_RM1X</SubNodeItem>
+		</Subnode>
+	</Node>
+	
+	<Node Nodename="DLCnode">
+
+		<Subnode SubNodeName="DLCTURBINECmd">	
+			<SubNodeItem SubNodeItemAlias="TRPMA">DLC_RPMX</SubNodeItem>
+		</Subnode>
+	</Node>
+</NodeStore>
