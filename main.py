@@ -150,10 +150,19 @@ def write_xml():
     trees = ET.ElementTree(root)
     trees.write(os.path.join(os.path.dirname(__file__), "toTelTemplate.xml"))
 
+def readNode():
+
+    dirpath = os.path.join(os.path.dirname(__file__), "Node.xml")
+    tree = ET.ElementTree(file=dirpath)
+    root = tree.getroot()
+    for nodestore in root.findall("./NodeStore"):
+        print(nodestore.text)
+
 if __name__ == '__main__':
     xmlToTel()
     write_xml()
-    app = QApplication(sys.argv)
-    myWin = MyWindow()
-    myWin.show()
-    sys.exit(app.exec_())
+    readNode()
+    # app = QApplication(sys.argv)
+    # myWin = MyWindow()
+    # myWin.show()
+    # sys.exit(app.exec_())

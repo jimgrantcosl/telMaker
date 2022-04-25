@@ -118,12 +118,21 @@
    </widget>
    <widget class="QMenu" name="menuEdit">
     <property name="title">
-     <string>Help</string>
+     <string>Edit</string>
     </property>
     <addaction name="actionAbout"/>
+    <addaction name="actionRemove"/>
+    <addaction name="separator"/>
+   </widget>
+   <widget class="QMenu" name="menuHelp">
+    <property name="title">
+     <string>Help</string>
+    </property>
+    <addaction name="actionAbout_2"/>
    </widget>
    <addaction name="menuFile"/>
    <addaction name="menuEdit"/>
+   <addaction name="menuHelp"/>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
   <action name="actionNew">
@@ -153,12 +162,22 @@
   </action>
   <action name="actionAbout">
    <property name="text">
-    <string>About</string>
+    <string>Add Column</string>
    </property>
   </action>
   <action name="actionExit">
    <property name="text">
     <string>Exit</string>
+   </property>
+  </action>
+  <action name="actionRemove">
+   <property name="text">
+    <string>Remove Col</string>
+   </property>
+  </action>
+  <action name="actionAbout_2">
+   <property name="text">
+    <string>About</string>
    </property>
   </action>
  </widget>
