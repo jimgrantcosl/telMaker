@@ -1,17 +1,20 @@
-<Telemetry><TelemetryDefinition>$$TELEMETRY_DEFINITION ONTRAK</TelemetryDefinition>
-<FIDInfo name="2400"><FIDDescription>$$SURVEY DIM RAW</FIDDescription>
-<FIDNum>FID 2400</FIDNum>
-<FIDECC>FID_ERROR_ENCODE ECC_7_4</FIDECC>
-<FIDData desc="DIM_INCX"><DataInit>DATA</DataInit>
-<SubNodeItem>DIM_INCX</SubNodeItem>
-<Parity>EVEN_PARITY</Parity>
-<SubNodeSeq>1</SubNodeSeq>
-<SubNodeSeqAttr>0</SubNodeSeqAttr>
-<NodeDescription>COSLDrillogNode</NodeDescription>
-<SubNodeDescrpition>DIMSvyCmd</SubNodeDescrpition>
-<SubNodeItemAlias>DIM_INCA</SubNodeItemAlias>
-</FIDData>
-<FIDEnd>$$END</FIDEnd>
-</FIDInfo>
-<TelemetryDefinitionEnd>$$END</TelemetryDefinitionEnd>
+<Telemetry>
+    <TelemetryDefinition>$$TELEMETRY_DEFINITION ONTRAK</TelemetryDefinition>
+        <FIDInfo name="2400">
+            <FIDDescription>$$SURVEY DIM RAW</FIDDescription>
+            <FIDNum>FID 2400</FIDNum>
+            <FIDECC>FID_ERROR_ENCODE ECC_7_4</FIDECC>
+            <FIDData desc="DIM_INCX">
+                <DataInit>DATA</DataInit>
+                <SubNodeItem>DIM_INCX</SubNodeItem>
+                <Parity>EVEN_PARITY</Parity>
+                <SubNodeSeq>1</SubNodeSeq>
+                <SubNodeSeqAttr>0</SubNodeSeqAttr>
+                <NodeDescription>COSLDrillogNode</NodeDescription>
+                <SubNodeDescrpition>DIMSvyCmd</SubNodeDescrpition>
+                <SubNodeItemAlias>DIM_INCA</SubNodeItemAlias>
+            </FIDData>
+            <FIDEnd>$$END</FIDEnd>
+        </FIDInfo>
+    <TelemetryDefinitionEnd>$$END</TelemetryDefinitionEnd>
 </Telemetry>

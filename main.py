@@ -1,7 +1,3 @@
-# This is a sample Python script.
-
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
 import os
 import xml.etree.ElementTree as ET
 
@@ -14,8 +10,6 @@ class MyWindow(QMainWindow,Ui_MainWindow):
         super(MyWindow,self).__init__(parent)
         self.setupUi(self)
 
-
-# from xml.dom import minidom,Node
 def initTelfile():
     if os.path.exists('output.tel'):
         os.remove('output.tel')
@@ -152,11 +146,19 @@ def write_xml():
 
 def readNode():
 
-    dirpath = os.path.join(os.path.dirname(__file__), "Node.xml")
+    dirpath = os.path.join(os.path.dirname(__file__), "Node1.xml")
     tree = ET.ElementTree(file=dirpath)
     root = tree.getroot()
-    for nodestore in root.findall("./NodeStore"):
-        print(nodestore.text)
+    for node in root.findall("./Node"):
+        for nodename in node.attrib.values():
+            print(nodename)
+            for subnodename in root.findall(".//*[@Nodename='" + nodename + "']/Subnode"):
+                for subnodename in subnodename.attrib.values():
+                    print("  -->",subnodename)
+                    for subnodeitem in root.findall(".//*[@SubNodeName='" + subnodename + "']/SubNodeItem"):
+                        print("    -->name:",subnodeitem.text,"alias:",list(subnodeitem.attrib.values())[0])
+            # for subnodename in root.findall(".//*[@SubNodeName='" + nodename + "']/Subnode"):
+            #                                (".//*[@name='" + fidname + "']/FIDDescription"):
 
 if __name__ == '__main__':
     xmlToTel()
