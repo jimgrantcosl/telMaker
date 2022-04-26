@@ -156,7 +156,7 @@ def readNode():
                 for subnodename in subnodename.attrib.values():
                     print("  -->",subnodename)
                     for subnodeitem in root.findall(".//*[@SubNodeName='" + subnodename + "']/SubNodeItem"):
-                        print("    -->name:",subnodeitem.text,"alias:",list(subnodeitem.attrib.values())[0])
+                        print("    -->name:", subnodeitem.text, "alias:", list(subnodeitem.attrib.values())[0])
             # for subnodename in root.findall(".//*[@SubNodeName='" + nodename + "']/Subnode"):
             #                                (".//*[@name='" + fidname + "']/FIDDescription"):
 
